@@ -1,7 +1,17 @@
-Set enviremental variable in PowerShell
+**Set environment variable in PowerShell :**
+
+```
 
 $Env:GOOS = "js"; $Env:GOARCH = "wasm"
 
-build command go build -o main.wasm
+```
 
-Server must recoginze wasm as a MIME Type
+**Build command :**
+
+```
+
+go build -o main.wasm
+
+```
+
+_Server must recognize WASM as a MIME Type_
